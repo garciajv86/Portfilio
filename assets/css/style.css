@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    background-color:rgb(4, 92, 128);
+    color: #fff;
+}
+
+h1 {
+    font-size: 200%;
+    background-color: rgb(176, 24, 10);
+    padding: 2.5px 10px 2px 50px;
+    
+}
+
+h2 {
+    
+    background-color: rgb(56, 116, 152);
+}
+
+h2 p {
+    display: flex;
+    justify-content: end;
+    padding: 125px 0px 25px 0px;
+    color:#fff
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    margin: 25px;
+    list-style: none;
+}
+
+nav a {
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+/* Tablets - Header changes color*/
+@media screen and (max-width: 992px) {
+    header {
+        background-color: blue;
+    }
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+    nav {
+        background-color: crimson;
+    }
+}
+
+/* Small smartphones - h1 changes color */
+@media screen and (max-width: 576px) {
+    h1 {
+        background-color: blueviolet;
+    }
+}
