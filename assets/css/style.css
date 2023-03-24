@@ -5,35 +5,37 @@
 }
 
 body {
-
+    font-family: sans-serif, Tahoma, Cambria, Cochin, Georgia, Times, 'Times New Roman';
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px;
-    background-color:rgb(4, 92, 128);
-    color: #fff;
+    padding: 5px 0px 0px 5px;
+    background-color:rgb(1, 18, 35);
+    color: #01e3c1;
 }
 
 h1 {
     font-size: 200%;
-    background-color: rgb(176, 24, 10);
     padding: 2.5px 10px 2px 50px;
+    font-family: cursive;
+    border-style:double;
     
 }
 
 h2 {
-    
-    background-color: rgb(56, 116, 152);
+    background-color: #3f71a0;
+    background-image: url("../images/IMG_5166.jpg");
+    background-size: cover;
 }
 
 h2 p {
     display: flex;
     justify-content: end;
-    padding: 125px 0px 25px 0px;
-    color:#fff
+    padding: 125px 30px 25px 0px;
+    color:#01e3c1;
 }
 
 nav ul {
@@ -42,10 +44,11 @@ nav ul {
     min-width: 300px;
     margin: 25px;
     list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 nav a {
-    color:rgb(255, 255, 255);
+    color: #01e3c1;
     font-weight: bold;
 }
 
