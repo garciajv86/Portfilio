@@ -6,6 +6,7 @@
 
 body {
     font-family: sans-serif, Tahoma, Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    background-color:rgb(1, 18, 35);
 }
 
 header {
@@ -50,6 +51,23 @@ nav ul {
 nav a {
     color: #01e3c1;
     font-weight: bold;
+}
+
+h3 {
+    color: #01e3c1;
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+
+ul p {
+    padding-bottom: 50px;
+    color:aliceblue
+}
+
+ul h3, ul p {
+    display: flex;
+    justify-content: center;
+    list-style: none;
 }
 
 /* Tablets - Header changes color*/
