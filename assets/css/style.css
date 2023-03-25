@@ -53,6 +53,11 @@ nav a {
     font-weight: bold;
 }
 
+/* Creating hover effect over clickable titles */
+nav ul li a:hover {
+    color:aliceblue
+}
+
 h3 {
     color: #01e3c1;
     font-size: 50px;
