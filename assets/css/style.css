@@ -30,6 +30,7 @@ h2 {
     background-color: #3f71a0;
     background-image: url("../images/IMG_5166.jpg");
     background-size: cover;
+    padding-left: 1500px;
 }
 
 h2 p {
@@ -122,4 +123,40 @@ h4 {
     padding-left: 50px;
     color:rgb(255, 255, 255);
     font-size: 20px;
+}
+
+/* Adding media query to adjust for screen size */
+@media screen and (max-width: 1548px) {
+    h2 p, h2 {
+        display: flex;
+        justify-content: center;
+        padding: 100px 0px 5px 0px;
+    }
+        
+    .profile {
+        display: block;
+        padding-left: 100px;
+        
+    }
+
+    .center {
+        padding-left: 500px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
+
+/* Adding media query to adjust for 968 screen size */
+@media screen and (max-width: 968px) {
+    .profile, .center {
+        display: flex;
+        align-items: start;
+        padding-left: 0px;
+        
+    }
 }
