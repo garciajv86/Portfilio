@@ -39,6 +39,7 @@ h2 p {
     color:#01e3c1;
 }
 
+/* Only unordered list in nav get these styles */
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -60,8 +61,9 @@ nav ul li a:hover {
 
 h3 {
     color: #01e3c1;
-    font-size: 50px;
-    padding-bottom: 25px;
+    font-size: 21px;
+    padding: 25px 0px 25px 0px;
+    
 }
 
 ul p {
@@ -75,23 +77,35 @@ ul h3, ul p {
     list-style: none;
 }
 
-/* Tablets - Header changes color*/
-@media screen and (max-width: 992px) {
-    header {
-        background-color: blue;
-    }
+.image {
+    display: flex;
+    justify-content: center;
 }
 
-/* Large smartphones - navbar changes color */
-@media screen and (max-width: 768px) {
-    nav {
-        background-color: crimson;
-    }
+.image img {
+    width: 600px;
 }
 
-/* Small smartphones - h1 changes color */
-@media screen and (max-width: 576px) {
-    h1 {
-        background-color: blueviolet;
-    }
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content img {
+    width: 400px;
+    padding: 10px;
+    margin: 20px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    color:#ffffff;
+    padding: 25px 0px 10px 100px;
+
+}
+
+/* Created a class for my h4 to center it */
+.main {
+    padding-right: 100px;
 }
