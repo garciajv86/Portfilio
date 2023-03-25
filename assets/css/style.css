@@ -109,3 +109,17 @@ h4 {
 .main {
     padding-right: 100px;
 }
+
+/* Class to add structure to the section */
+.profile {
+    display: flex;
+    padding-left: 100px;
+    margin-bottom: 300px;
+}
+
+/* Class to format my paragraph */
+.hero {
+    padding-left: 50px;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
