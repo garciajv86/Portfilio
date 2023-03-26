@@ -41,7 +41,7 @@ h2 p {
 }
 
 /* Only unordered list in nav get these styles */
-nav ul {
+nav ul, footer {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
@@ -50,13 +50,13 @@ nav ul {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-nav a {
+nav a, footer {
     color: #01e3c1;
     font-weight: bold;
 }
 
 /* Creating hover effect over clickable titles */
-nav ul li a:hover {
+nav ul li a:hover, footer {
     color:aliceblue
 }
 
@@ -124,6 +124,23 @@ h4 {
     color:rgb(255, 255, 255);
     font-size: 20px;
 }
+
+footer ul li, footer h3, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px    
+}
+
+footer ul li a {
+    color: white
+}
+
+/* Added hover effect just for Github since it's a clickable link */
+footer ul li a:hover {
+    color:#01e3c1
+}
+
 
 /* Adding media query to adjust for screen size */
 @media screen and (max-width: 1548px) {
