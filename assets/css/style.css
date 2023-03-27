@@ -60,6 +60,11 @@ nav ul li a:hover, footer {
     color:aliceblue
 }
 
+/* adding angle to my profile pic */
+.center {
+    transform: skewY(-25deg);
+}
+
 h3 {
     color: #01e3c1;
     font-size: 21px;
@@ -84,7 +89,7 @@ ul h3, ul p {
 }
 
 .image img {
-    width: 600px;
+    width: 1000px;
 }
 
 .content {
