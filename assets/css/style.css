@@ -68,6 +68,10 @@ nav ul li a:hover, footer {
 /* adding angle to my profile pic */
 .center {
     transform: skewY(-25deg);
+    border-style: double;
+    border-color: var(--light);
+    border-width: 10px;
+    border-radius: 15px;
 }
 
 h3 {
