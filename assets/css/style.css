@@ -1,3 +1,8 @@
+/* Created a variable to replace all color attributes of the same color */
+:root {
+    --light: #01e3c1;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,7 +20,7 @@ header {
     align-items: center;
     padding: 5px 0px 0px 5px;
     background-color:rgb(1, 18, 35);
-    color: #01e3c1;
+    color: var(--light);
 }
 
 h1 {
@@ -37,7 +42,7 @@ h2 p {
     display: flex;
     justify-content: end;
     padding: 125px 30px 25px 0px;
-    color:#01e3c1;
+    color: var(--light);
 }
 
 /* Only unordered list in nav get these styles */
@@ -66,7 +71,7 @@ nav ul li a:hover, footer {
 }
 
 h3 {
-    color: #01e3c1;
+    color: var(--light);
     font-size: 21px;
     padding: 25px 0px 25px 0px;
     
@@ -143,7 +148,7 @@ footer ul li a {
 
 /* Added hover effect just for Github since it's a clickable link */
 footer ul li a:hover {
-    color:#01e3c1
+    color: var(--light)
 }
 
 
