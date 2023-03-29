@@ -172,12 +172,6 @@ footer ul {
 /* Adding media query to adjust for screen size 1548px */
 @media screen and (max-width: 1548px) {
 
-    header, nav ul{
-        display: block;
-        
-               
-    }
-
     h2 p, h2 {
         display: flex;
         justify-content: center;
@@ -212,6 +206,10 @@ footer ul {
         align-items: start;
         padding-left: 0px;
         
+    }
+
+    header, nav ul {
+        display: block;         
     }
 
 }
