@@ -46,7 +46,7 @@ h2 p {
 }
 
 /* Only unordered list in nav get these styles */
-nav ul, footer {
+nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
@@ -56,7 +56,7 @@ nav ul, footer {
 }
 
 nav a, footer {
-    color: #01e3c1;
+    color: var(--light);
     font-weight: bold;
 }
 
@@ -139,15 +139,21 @@ h4 {
     font-size: 20px;
 }
 
+/* Footer Section */
 footer ul li, footer h3, footer {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    padding: 5px    
+    padding: 5px;
+    list-style: none; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-width: 300px   
 }
 
 footer ul li a {
     color: white
+    
 }
 
 /* Added hover effect just for Github since it's a clickable link */
@@ -156,7 +162,7 @@ footer ul li a:hover {
 }
 
 
-/* Adding media query to adjust for screen size */
+/* Adding media query to adjust for screen size 1548px */
 @media screen and (max-width: 1548px) {
     h2 p, h2 {
         display: flex;
