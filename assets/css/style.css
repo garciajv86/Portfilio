@@ -161,6 +161,13 @@ footer ul li a:hover {
     color: var(--light)
 }
 
+footer ul {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0px 20px 0px;
+    margin: 5px;
+    list-style: none;
+}
 
 /* Adding media query to adjust for screen size 1548px */
 @media screen and (max-width: 1548px) {
