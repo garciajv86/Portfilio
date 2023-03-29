@@ -185,6 +185,8 @@ footer ul {
 
     .center {
         padding-left: 500px;
+        transform: skewY(0deg);
+        padding-left: 0px;
     }
 
     .content {
@@ -197,10 +199,12 @@ footer ul {
 
 /* Adding media query to adjust for 968 screen size */
 @media screen and (max-width: 968px) {
-    .profile, .center {
+    .profile, .center, footer ul {
         display: flex;
+        flex-direction: column;
         align-items: start;
         padding-left: 0px;
         
     }
+
 }
