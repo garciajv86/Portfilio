@@ -97,6 +97,11 @@ ul h3, ul p {
     justify-content: center;
 }
 
+.image:hover {
+    transition: background 0.5s, transform 0.5s;
+    transform: translateY(-10px);
+}
+
 .image img {
     width: 1000px;
 }
