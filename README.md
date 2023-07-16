@@ -2,8 +2,9 @@
 
 I created a portfolio based on the user story and acceptance criteria below to complete this challenge.
 
-## Link To My Portfolio: 
-https://garciajv86.github.io/challenge-2/
+## Link 
+Click the link to view my portfolio:
+[Portfolio](https://garciajv86.github.io/Portfilio/)
 
 ![Screenshot of my portfolio](./assets/images/my_portfolio.png)
 
